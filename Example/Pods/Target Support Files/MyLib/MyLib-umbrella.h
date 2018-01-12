@@ -11,6 +11,7 @@
 #endif
 
 #import "Log.h"
+#import "ViewController.h"
 
 FOUNDATION_EXPORT double MyLibVersionNumber;
 FOUNDATION_EXPORT const unsigned char MyLibVersionString[];
