@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MyLib'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = 'private MyLib.'
 
 # This description is used to generate tags and improve search results.
@@ -32,9 +32,9 @@ haohaohaohaohaohaohaohao
 
   s.source_files = 'MyLib/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'MyLib' => ['MyLib/Assets/*.png']
-  # }
+  s.resource_bundles = {
+     'MyLib' => ['MyLib/Assets/*.png']
+ }
 
   #s.public_header_files = 'Pod/Classes/**/*.{h,m}'
   # s.frameworks = 'UIKit', 'MapKit'
