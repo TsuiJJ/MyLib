@@ -1,9 +1,9 @@
 {
   "name": "MyLib",
   "version": "0.1.0",
-  "summary": "A short description of MyLib.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/xtxujijun@hotmail.com/MyLib",
+  "summary": "private MyLib.",
+  "description": "haohaohaohaohaohaohaohao",
+  "homepage": "https://github.com/TsuiJJ/MyLib",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "xtxujijun@hotmail.com": "xujijun@jd.com"
   },
   "source": {
-    "git": "https://github.com/xtxujijun@hotmail.com/MyLib.git",
+    "git": "https://github.com/TsuiJJ/MyLib.git",
     "tag": "0.1.0"
   },
   "platforms": {
