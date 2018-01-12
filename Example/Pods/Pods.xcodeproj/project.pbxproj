@@ -153,20 +153,8 @@
 		FC223395BCEE46EB920CECD38AFD4402 /* EXPMatchers+beInTheRangeOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 222B35F590250B97F30D1C37C402B693 /* EXPMatchers+beInTheRangeOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FC6474103AA989EBD5368772037BE0BB /* EXPMatchers+beSupersetOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ABA02BD58E16D9841A495FD86DF6334 /* EXPMatchers+beSupersetOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCDA06700D1989687F2471414453A57A /* SPTSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C8175700E46E467915FC3D84336F6A3 /* SPTSpec.m */; };
-		FCF3B3302008519B00A0A288 /* Log.h in Headers */ = {isa = PBXBuildFile; fileRef = FCF3B32E2008519A00A0A288 /* Log.h */; };
-		FCF3B3312008519B00A0A288 /* Log.h in Headers */ = {isa = PBXBuildFile; fileRef = FCF3B32E2008519A00A0A288 /* Log.h */; };
-		FCF3B3322008519B00A0A288 /* Log.h in Headers */ = {isa = PBXBuildFile; fileRef = FCF3B32E2008519A00A0A288 /* Log.h */; };
-		FCF3B3332008519B00A0A288 /* Log.h in Headers */ = {isa = PBXBuildFile; fileRef = FCF3B32E2008519A00A0A288 /* Log.h */; };
-		FCF3B3342008519B00A0A288 /* Log.h in Headers */ = {isa = PBXBuildFile; fileRef = FCF3B32E2008519A00A0A288 /* Log.h */; };
-		FCF3B3352008519B00A0A288 /* Log.h in Headers */ = {isa = PBXBuildFile; fileRef = FCF3B32E2008519A00A0A288 /* Log.h */; };
-		FCF3B3362008519B00A0A288 /* Log.h in Headers */ = {isa = PBXBuildFile; fileRef = FCF3B32E2008519A00A0A288 /* Log.h */; };
-		FCF3B3372008519B00A0A288 /* Log.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF3B32F2008519A00A0A288 /* Log.m */; };
-		FCF3B3382008519B00A0A288 /* Log.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF3B32F2008519A00A0A288 /* Log.m */; };
-		FCF3B3392008519B00A0A288 /* Log.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF3B32F2008519A00A0A288 /* Log.m */; };
-		FCF3B33A2008519B00A0A288 /* Log.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF3B32F2008519A00A0A288 /* Log.m */; };
-		FCF3B33B2008519B00A0A288 /* Log.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF3B32F2008519A00A0A288 /* Log.m */; };
-		FCF3B33C2008519B00A0A288 /* Log.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF3B32F2008519A00A0A288 /* Log.m */; };
-		FCF3B33D2008519B00A0A288 /* Log.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF3B32F2008519A00A0A288 /* Log.m */; };
+		FCF3B340200855A600A0A288 /* Log.h in Headers */ = {isa = PBXBuildFile; fileRef = FCF3B33E200855A600A0A288 /* Log.h */; };
+		FCF3B341200855A600A0A288 /* Log.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF3B33F200855A600A0A288 /* Log.m */; };
 		FD39ACDEA6F0B6D6DBB730547CE18BA6 /* EXPExpect.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F63B0FF272D1EB750D82F3EADA2D2CA /* EXPExpect.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FF394D6FEA84206182301180AE4CB957 /* EXPMatchers+beGreaterThan.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C3D8B18F8E2A5FB67C1A251F1D7AA4 /* EXPMatchers+beGreaterThan.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
@@ -410,8 +398,8 @@
 		FB73F9E65656A95D38E3F5BF7188D225 /* MyLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MyLib.modulemap; sourceTree = "<group>"; };
 		FB93C123AC6F580DF978D60A8191F679 /* SpectaDSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpectaDSL.h; path = Specta/Specta/SpectaDSL.h; sourceTree = "<group>"; };
 		FBA78AD493C15517AB45ED930E51A1E0 /* EXPMatchers+raise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+raise.m"; path = "Expecta/Matchers/EXPMatchers+raise.m"; sourceTree = "<group>"; };
-		FCF3B32E2008519A00A0A288 /* Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Log.h; sourceTree = "<group>"; };
-		FCF3B32F2008519A00A0A288 /* Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Log.m; sourceTree = "<group>"; };
+		FCF3B33E200855A600A0A288 /* Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Log.h; path = MyLib/Classes/Log.h; sourceTree = "<group>"; };
+		FCF3B33F200855A600A0A288 /* Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Log.m; path = MyLib/Classes/Log.m; sourceTree = "<group>"; };
 		FD02EEA09E86CEF0D6AB3E21D5444997 /* Pods-MyLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		FDB667FDEC11589B26C54AE25F550F2C /* EXPMatchers+beInTheRangeOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beInTheRangeOf.m"; path = "Expecta/Matchers/EXPMatchers+beInTheRangeOf.m"; sourceTree = "<group>"; };
 		FDE880572CC4AF9A3FB007D3FBAB3FC9 /* SpectaUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SpectaUtility.m; path = Specta/Specta/SpectaUtility.m; sourceTree = "<group>"; };
@@ -501,8 +489,8 @@
 		0C36570F065DED252718C4601E507025 /* MyLib */ = {
 			isa = PBXGroup;
 			children = (
-				FCF3B32E2008519A00A0A288 /* Log.h */,
-				FCF3B32F2008519A00A0A288 /* Log.m */,
+				FCF3B33E200855A600A0A288 /* Log.h */,
+				FCF3B33F200855A600A0A288 /* Log.m */,
 				DD43A72EBD692814BCA0B1A8BBA5556B /* ReplaceMe.m */,
 				9A215B5B7663C871E40C434464273CF2 /* Support Files */,
 			);
@@ -854,7 +842,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				31372357375E0F943818673860B46EEB /* Pods-MyLib_Example-umbrella.h in Headers */,
-				FCF3B3342008519B00A0A288 /* Log.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -863,7 +850,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				19BC42AFC269DA8FD801826B43761455 /* MyLib-umbrella.h in Headers */,
-				FCF3B3332008519B00A0A288 /* Log.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -882,7 +868,6 @@
 				8EDC47391C8554AD5C7A91C4D5AFC5F2 /* SPTExampleGroup.h in Headers */,
 				D7BF9558E071FDF8643CE2B50276B777 /* SPTExcludeGlobalBeforeAfterEach.h in Headers */,
 				5D3A5E9359A70F84E5EC0C4CE701DDE5 /* SPTGlobalBeforeAfterEach.h in Headers */,
-				FCF3B3362008519B00A0A288 /* Log.h in Headers */,
 				87C61FE4EBA517506085582BD4175CCA /* SPTSharedExampleGroups.h in Headers */,
 				827762B596901D18DAD29830875E1922 /* SPTSpec.h in Headers */,
 				2E81617C064F3E68A7A2A9E6A370E073 /* SPTTestSuite.h in Headers */,
@@ -915,7 +900,7 @@
 				5F160713BF583BCBC136CE95E62F9C2F /* EXPMatchers+beInstanceOf.h in Headers */,
 				FC223395BCEE46EB920CECD38AFD4402 /* EXPMatchers+beInTheRangeOf.h in Headers */,
 				41CC214541946B82A25CE427BB81ABEA /* EXPMatchers+beKindOf.h in Headers */,
-				FCF3B3302008519B00A0A288 /* Log.h in Headers */,
+				FCF3B340200855A600A0A288 /* Log.h in Headers */,
 				E233F5CF4BF16CFB539804C4E995C355 /* EXPMatchers+beLessThan.h in Headers */,
 				AA5060419F1307F5F03ECBEA70DB186C /* EXPMatchers+beLessThanOrEqualTo.h in Headers */,
 				64C46AF200F2347115A0DF2799D6E403 /* EXPMatchers+beNil.h in Headers */,
@@ -943,7 +928,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCF3B3322008519B00A0A288 /* Log.h in Headers */,
 				8D49114979B44DF683A9A964565E0FE6 /* FBSnapshotTestCase-umbrella.h in Headers */,
 				31328536635BDC034D4E43B11CA846BD /* FBSnapshotTestCase.h in Headers */,
 				0676595134A6036819E78D0404919486 /* FBSnapshotTestCasePlatform.h in Headers */,
@@ -960,7 +944,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B02627C973694D13A4A5346D5A7E5E09 /* Pods-MyLib_Tests-umbrella.h in Headers */,
-				FCF3B3352008519B00A0A288 /* Log.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -969,7 +952,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE4EF1ED618D31CA16938565A1CA0607 /* Expecta+Snapshots-umbrella.h in Headers */,
-				FCF3B3312008519B00A0A288 /* Log.h in Headers */,
 				CDBF7F2D23165CAB8B3819A256A49F0A /* ExpectaObject+FBSnapshotTest.h in Headers */,
 				EDF3CEAAF7922F570A5AD95B005C84F8 /* EXPMatchers+FBSnapshotTest.h in Headers */,
 			);
@@ -1142,7 +1124,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCF3B33A2008519B00A0A288 /* Log.m in Sources */,
 				F7DC83B8D000167747B8BF1596BACCA1 /* MyLib-dummy.m in Sources */,
 				DD6D7F2E1F04F578FD0E77379E14416E /* ReplaceMe.m in Sources */,
 			);
@@ -1158,7 +1139,6 @@
 				57C1DAC24BEE6C12B29AAE68DD3EBEC7 /* FBSnapshotTestController.m in Sources */,
 				754197D184C23A19146DB4C9B3B90050 /* SwiftSupport.swift in Sources */,
 				47EC7BD047C906B92B85399E097E258E /* UIApplication+StrictKeyWindow.m in Sources */,
-				FCF3B3392008519B00A0A288 /* Log.m in Sources */,
 				98CF4E57A36540E13153A545546A1D11 /* UIImage+Compare.m in Sources */,
 				75DF265A4FEC4E42582B8570194CB583 /* UIImage+Diff.m in Sources */,
 				E972E6647713D21A0F21BDAD1816AA29 /* UIImage+Snapshot.m in Sources */,
@@ -1175,7 +1155,6 @@
 				146D2FD2E3B98DA591885219099F2A4A /* SPTCallSite.m in Sources */,
 				255345DF9F3F6DDC70B0ABAF2775324B /* SPTCompiledExample.m in Sources */,
 				B376B4A777F62028AF0965D93658413E /* SPTExample.m in Sources */,
-				FCF3B33D2008519B00A0A288 /* Log.m in Sources */,
 				5386920B6032F8686000D909CFF26041 /* SPTExampleGroup.m in Sources */,
 				9695B31D33EA0EC9CFB42B9D8ABC447D /* SPTSharedExampleGroups.m in Sources */,
 				FCDA06700D1989687F2471414453A57A /* SPTSpec.m in Sources */,
@@ -1188,7 +1167,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCF3B33C2008519B00A0A288 /* Log.m in Sources */,
 				69A7A70C0AA1DA255FEC059C6276A54E /* Pods-MyLib_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1197,7 +1175,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCF3B33B2008519B00A0A288 /* Log.m in Sources */,
 				D33F4927E587AB3680E091FEC82F8BF1 /* Pods-MyLib_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1236,7 +1213,7 @@
 				C676818DADAC76EE2FDC5533CBF3648A /* EXPMatchers+haveCountOf.m in Sources */,
 				BC530A8234C398F9F3AD1A1D41670B65 /* EXPMatchers+match.m in Sources */,
 				9F51005FE4BF10FA9906B02DAD609C6E /* EXPMatchers+postNotification.m in Sources */,
-				FCF3B3372008519B00A0A288 /* Log.m in Sources */,
+				FCF3B341200855A600A0A288 /* Log.m in Sources */,
 				361B58CE2A28E03CA83A73617ED739F2 /* EXPMatchers+raise.m in Sources */,
 				870CAAA15357EFF9E1619737DEE56067 /* EXPMatchers+raiseWithReason.m in Sources */,
 				A0612BA825C81CE45266B214DF3A8BCB /* EXPMatchers+respondTo.m in Sources */,
@@ -1251,7 +1228,6 @@
 			files = (
 				2CC183AE5C5A4EA8EE0E14768F464BBB /* Expecta+Snapshots-dummy.m in Sources */,
 				6C88FB17C3AE49E50ABF4C36176B55BB /* ExpectaObject+FBSnapshotTest.m in Sources */,
-				FCF3B3382008519B00A0A288 /* Log.m in Sources */,
 				0D3FBF37E9E7829108F70F4D5658918A /* EXPMatchers+FBSnapshotTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
